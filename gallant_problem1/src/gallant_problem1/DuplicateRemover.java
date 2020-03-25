@@ -2,9 +2,12 @@ package gallant_problem1;
 
 public class DuplicateRemover {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public void remove(String dataFile) {
+		String uniqueWords;
+	}
+	
+	public void write(String outputFile) {
+		
 	}
 
 }
