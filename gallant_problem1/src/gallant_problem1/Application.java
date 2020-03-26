@@ -3,10 +3,14 @@ package gallant_problem1;
 public class Application {
 
 	public static void main(String[] args) {
-		DuplicateRemover remove1 = new DuplicateRemover();
-		String hello = "fame";
-		remove1.remove(hello);
-		remove1.write(hello);
+		
+		DuplicateRemover duplicateRemover = new DuplicateRemover();
+		
+		String file1 = "problem1.txt";
+		String file2 = "unique_words.txt";
+		
+		duplicateRemover.remove(file1);
+		duplicateRemover.write(file2);
 
 	}
 }

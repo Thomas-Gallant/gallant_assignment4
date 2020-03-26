@@ -1,0 +1,12 @@
+cat 
+cat 
+cat
+DOG 
+dog
+file2
+file34
+23213423
+2332
+3333
+3333
+CHICKEN
