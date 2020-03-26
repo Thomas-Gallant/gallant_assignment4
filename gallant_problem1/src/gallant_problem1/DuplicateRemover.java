@@ -16,7 +16,7 @@ public class DuplicateRemover {
 	public void remove(String dataFile) {
 
 		String newWord;
-		try(Scanner input = new Scanner(Paths.get("problem1.txt"))) {
+		try(Scanner input = new Scanner(Paths.get(dataFile))) {
 			while (input.hasNext()) {
 				
 				newWord = input.next();
@@ -35,9 +35,6 @@ public class DuplicateRemover {
 			System.out.println("An exceptional IO event has occured, sorry!");
 			e.printStackTrace();
 		}
-		
-		System.out.println(uniqueWords);
-
 	}
 	
 	public void write(String outputFile) {
