@@ -1,0 +1,1 @@
+I am not sure what these two programs do. The first one appears to remove duplicate words in a text file, and the second one counts duplicate words in a text file. Both outprint results into a new file. 
